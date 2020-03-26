@@ -1,4 +1,5 @@
 
+// 计算字符个数
 
 import java.util.Scanner;
 
@@ -6,7 +7,7 @@ public class NumOfChar {
 
  public static void main(String[] args) {
   int i=0,j=0;
-  Scanner sc=new Scanner(System.in);
+  Scanner sc = new Scanner(System.in);
   String str=sc.nextLine();
   char ch=sc.next().charAt(0);
   for(i=0;i<str.length();i++)
